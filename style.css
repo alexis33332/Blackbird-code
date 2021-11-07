@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+p,a,li,h1,h2,h3,h4,h5,h6{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #252525;
+    font-size: 16px;
+}
+.cabecer{
+	margin-top: 10px; 
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+	background-color:#ffffff; 
+	float: left;
+	
+}
+.logo{
+	width: 20%;
+	overflow: hidden;
+	float: left;
+}
+.logo img{
+	width: 200px;
+	margin: -30px 0px 5px -40px;
+	
+		
+	
+}
+.menu{
+	margin-top: 10px; 
+	width: 80%;
+	float: left;
+	/*border:1px solid white;*/
+	
+	
+	
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+	
+}
+.menu ul li a {
+	
+	color: #252525;
+	text-decoration: none;
+	margin-left: -60px;
+	margin-right:120px; 
+	font-stretch:12;
+	
+}
+.social{
+	
+	
+	float: right;
+	margin-top: -36px;
+	overflow: hidden;
+	margin-bottom: -0px;
+	
+	
+}
+
+.paralax{
+	width: 100%;
+	height: 470px;
+	overflow: hidden;
+	background-image: url("imagen/blackbird.png"),url("imagen/degradado1.jpg");
+	background-repeat: no-repeat;
+  	background-size: 500px 500px, cover;
+	 background-position: right,center;
+	background-attachment: fixed;
+	
+}
+
+.paralax h3{
+	text-align: center;
+	background-color: rgb(254,254,242, 0.5);
+	padding:10px;
+	color:#1B2631;
+	
+}
+
+.plaza{
+	
+	margin: auto;
+	overflow: hidden;
+	margin-top:10px;
+	margin-left:75px;
+	margin-right: 75px;
+	background: #ffffff;
+	
+}
+
+.paralax h3{
+	text-align: center;
+	background-color: rgb(255,255,255, 0.5);
+	padding:10px;
+	color:#555;
+	
+}/* *********************************************/
+.piedepagina{
+	margin-top: 1px;
+	width: 100%;
+	background-image: url("imagen/white.jpg");
+	background-repeat: no-repeat;
+  	background-size:  cover;
+	 background-position: center;
+	background-attachment: fixed;
+	
+}
+
+.piedepagina1{
+	max-width: 1200px;
+	height: 100px;
+	margin: auto;
+	
+}
+.piedepagina1{
+	
+	text-align: center;
+	color: #ffffff;
+	margin: 5px;
+}
+
+
+.mapa{
+	 
+	
+	
+}
+.fb-page{
+	width: 100%;
+	height: 100%;
+	
+	
+	
+}
+.tecnologia1{
+	width: 100%;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+	
+}
+
+.hogar h1{
+	text-align:center;
+	background:#070606;
+	padding:10px;
+	color:#CFCECE;
+	font-size: 36px;
+	
+	
+}
+.hogar h2{
+	text-align:center;
+	
+	padding:10px;
+	color:#555;
+	font-size: 26px;
+	
+	
+}
+.hogar h4{
+	text-align: justify;
+	
+	padding-left: 200px;
+	padding-right: 500px;
+	padding-bottom:  30px;
+	color:#555;
+	font-size: 19px;
+	
+}
+
+.hogar img{
+	
+	margin-left: 900px;
+	margin-top:0px;
+	margin-bottom: 100px;
+}
+
+.tec h1{
+	text-align:center;
+	background:#070606;
+	padding:10px;
+	color:#CFCECE;
+	font-size: 36px;
+	
+}
+
+.tec h2{
+	text-align:center;
+	
+	padding:10px;
+	color:#555;
+	font-size: 26px;
+	
+}
+
+.tec img{
+	
+	margin-left: 570px;
+	margin-top:40px;
+	margin-bottom: 100px;
+}
+
